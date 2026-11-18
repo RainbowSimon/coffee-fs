@@ -32,4 +32,6 @@
 // Since we're not striving for windwows compat here, we don't need it.
 #define CCIF
 
+#define MIN(a,b) ((a) < (b) ? (a) : (b))
+
 #endif
